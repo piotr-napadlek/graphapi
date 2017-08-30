@@ -7,6 +7,9 @@ public class PlaceLocationDO {
     private double latitude;
     private double longitude;
 
+    public PlaceLocationDO() {
+    }
+
     public PlaceLocationDO(String name, LocationDO location) {
         this.name = name;
         this.latitude = location.getLatitude();
